@@ -1,7 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 20px;
+  color: #f0f0f0;
+  text-shadow: 0px 0px 2px #424242;
+  background-color: #242424;
+  padding: 40px;
 }
 
 /* Animation for buttons to appear */
@@ -51,3 +54,68 @@ p span:nth-child(8) { animation-delay: 1.4s; }
 p span:nth-child(9) { animation-delay: 1.6s; }
 p span:nth-child(10) { animation-delay: 1.8s; }
 p span:nth-child(11) { animation-delay: 2.0s; }
+
+
+.q1-image-background,
+.q10-image-background,
+.q15-image-background,
+.q18-image-background {
+  background-image: url('/img/04Screenshot00.jpg');
+  background-size: cover;
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  height: 100vh; 
+}
+
+.q2-image-background,
+.q3-image-background
+.q5-image-background,
+.q6-image-background {
+  background-image: url('/img/04_13.jpg');
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  height: 100vh; 
+}
+
+.q7-image-background {
+  background-image: url('/img/04_00.jpg');
+  background-size: cover;
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  height: 100vh; 
+}
+
+.q12-image-background,
+.q14-image-background,
+.q17-image-background {
+  background-image: url('/img/23.png');
+  background-size: cover;
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  height: 100vh; 
+}
+
+.q13-image-background {
+  background-image: url('/img/04_19.jpg');
+  background-size: cover;
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  height: 100vh;
+}
+
+.q16-image-background {
+  background-image: url('/img/04_25.jpg');
+  background-size: cover;
+  background-position: center; /* 背景图片居中 */
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  height: 100vh;
+}
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vh;
+  min-height: 100vh;
+  z-index: -1;
+}
