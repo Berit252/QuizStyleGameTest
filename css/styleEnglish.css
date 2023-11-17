@@ -61,7 +61,7 @@ p span:nth-child(13) { animation-delay: 2.4s; }
 /* BACKGROUND */
 
 .index-image-background {
-  background-image: url('/img/04_18.jpg'); /* 替换为您的图片路径 */
+  background-image: url('04_18.jpg'); /* 替换为您的图片路径 */
   background-size: cover;
   background-position: center; /* 背景图片居中 */
   background-repeat: no-repeat; /* 不重复背景图片 */
