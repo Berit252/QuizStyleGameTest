@@ -92,7 +92,7 @@ p span:nth-child(13) { animation-delay: 2.4s; }
 }
 
 .q7-image-background {
-  background-image: url('/img/04_00.jpg');
+  background-image: url('../img/04_00.jpg');
   background-size: cover;
   background-position: center; /* 背景图片居中 */
   background-repeat: no-repeat; /* 不重复背景图片 */
@@ -102,7 +102,7 @@ p span:nth-child(13) { animation-delay: 2.4s; }
 .q12-image-background,
 .q14-image-background,
 .q17-image-background {
-  background-image: url('/img/23.png');
+  background-image: url('../img/23.png');
   background-size: cover;
   background-position: center; /* 背景图片居中 */
   background-repeat: no-repeat; /* 不重复背景图片 */
@@ -110,7 +110,7 @@ p span:nth-child(13) { animation-delay: 2.4s; }
 }
 
 .q13-image-background {
-  background-image: url('/img/04_19.jpg');
+  background-image: url('../img/04_19.jpg');
   background-size: cover;
   background-position: center; /* 背景图片居中 */
   background-repeat: no-repeat; /* 不重复背景图片 */
@@ -118,7 +118,7 @@ p span:nth-child(13) { animation-delay: 2.4s; }
 }
 
 .q16-image-background {
-  background-image: url('/img/04_25.jpg');
+  background-image: url('../img/04_25.jpg');
   background-size: cover;
   background-position: center; /* 背景图片居中 */
   background-repeat: no-repeat; /* 不重复背景图片 */
